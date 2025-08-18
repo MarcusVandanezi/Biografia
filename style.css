@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+aside {
+    border: solid 2px black;
+}
+
+header {
+    border: solid 2px black;
+}
+
+main {
+    border: solid 2px black;
+}
+
+footer {
+    border: solid 2px black;
+}
