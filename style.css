@@ -1,21 +1,136 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-
-aside {
-    border: solid 2px black;
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  background-color: #1f1f1f;
+  min-height: 100vh;
 }
 
 header {
-    border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  margin-top: 30px;
+}
+
+header div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+}
+
+header div p {
+  margin-right: 30px;
+  background-color: #1f1f1f;
+   font-size: 16px
 }
 
 main {
-    border: solid 2px black;
+  display: flex;
+  flex-direction: column; 
+  background-color: #1f1f1f;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+#profile-card {
+  display: flex;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+#profile-photo {
+  border-radius: 600px;
+  height: 200px;
+  width: 200px;
+  margin-right: 50px;
+  background-color: #2a2a2a;
+}
+
+#about {
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  height: 100px;
+  width: 700px;
+  background-color: #1f1f1f;
+}
+
+#about-tittle {
+  font-size: 38px;
+  color: #e0e0e0
+}
+
+#carrer {
+  margin: 30px;
+  width: 700px;
+  display: flex; 
+  flex-direction: column;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+   font-size: 16px
+}
+
+#carrer-tittle {
+  background-color: #1f1f1f;
+  font: 100px;
+}
+
+#carrer-p {
+  width: 600px;
+  background-color: #1f1f1f;
+}
+
+section {
+  display: flex;
+  background-color: #1f1f1f;
+}
+
+#techs {
+  color: #e0e0e0;
+   font-size: 16px
 }
 
 footer {
-    border: solid 2px black;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: #aaaaaa;
+  padding: 3px;
+}
+
+footer a {
+  color: #aaaaaa;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color: #2a2a2a;
+}
+
+#photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+#photos-tittle {
+  display: flex;
+  margin-right: 750px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #e0e0e0
+  
 }
