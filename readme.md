@@ -21,3 +21,10 @@ Possíveis adições futuras:
 🔹 4. Frase de impacto
 
 4.1-Frase ou citação que levo pra vida.
+
+
+Alterações no já existente:
+
+Carrosel de Imagens
+Responsividade
+
